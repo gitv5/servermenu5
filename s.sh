@@ -36,10 +36,10 @@ do
        0) case $choice in
 			 		## Starter en funktion udfra et valg i menuen
           hanne.v5.dk)  conn_server1 ;;
-				  lone.v5.dk)  conn_server2 ;;
-				  britney.v5.dk)  conn_server3 ;;
-				  pamala.v5.dk)  conn_server4 ;;
-				  ip)  get_IP ;;
+	  lone.v5.dk)  conn_server2 ;;
+	  britney.v5.dk)  conn_server3 ;;
+	  pamala.v5.dk)  conn_server4 ;;
+	  ip)  get_IP ;;
           Afslut)       clear; exit 0;;
 
       esac ;;
